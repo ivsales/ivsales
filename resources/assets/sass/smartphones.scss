@@ -1,0 +1,131 @@
+@media (max-width: 767px) {
+
+  .title {
+    margin: 0;
+  }
+
+  .subscribe {
+    height: max-content;
+
+    .content {
+      flex-direction: column;
+      h3 {
+        font-size: 1.5em;
+        color: white;
+      }
+
+      .form {
+        margin: 15px 0;
+      }
+    }
+  }
+
+  .nav-container {
+    position: relative;
+
+    .user-auth {
+      position: absolute;
+      top: 12px;
+      left: 15px;
+      width: 150px;
+
+      a {
+        display: inline-block;
+        margin: 0 15px;
+      }
+    }
+  }
+
+  h2, h3, h1, h4, h5, h6 {
+    font-size: 24px;
+  }
+
+  .post {
+    margin-top: 25px;
+    .post-title {
+      font-size: 20px;
+    }
+    .post-short-content {
+      font-size: 14px;
+    }
+    .for-button {
+      justify-content: center;
+    }
+    .post-data {
+      width: 100%;
+    }
+  }
+
+  .comments {
+    .comment {
+      padding: 20px 0;
+      .info {
+        .author {
+          display: block;
+        }
+      }
+    }
+  }
+
+  #accordion {
+    margin-top: 20px;
+  }
+
+  .review {
+    padding: 20px 0;
+  }
+
+  .btn-lg {
+    display: block;
+    width: 100%;
+  }
+
+  aside {
+    border: none;
+  }
+
+  .product-show {
+    margin: 10px 0;
+    .caption {
+      .title {
+        margin: 0;
+      }
+    }
+  }
+
+  .filter-btn {
+    margin-top: 15px;
+  }
+
+  .modal {
+    .modal-content {
+      .modal-header {
+        .close {
+          font-size: 75px;
+        }
+      }
+      .modal-body {
+        .product-sidebar {
+          ul {
+            padding: 0;
+
+            li {
+              font-size: 20px;
+
+              button {
+                .badge {
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .modal-footer {
+        button {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
